@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>after class project</title>
+</head>
+<body>
+    <div style="background-color: rgb(14, 152, 170); color: rgb(248, 248, 248);">
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var fruits=["banana","orange","mango","apple"];
+        document.getElementById("myjoin").innerHTML = fruits.join
+        ("*");
+        document.getElementById("myfirstpop").innerHTML = fruits
+        fruits.pop(".");
+        document.getElementById("mysecondpop").innerHTML = fruits;
+  
+        var cars = [
+"Coding",
+"Football",
+"Maths",
+    ];
+    document.getElementById("demo1").innerHTML = cars[2];
+  
+    function add(a,b) {
+    return a + b;
+}
+function average(a,b){
+    return add(a,b)/2;
+}
+let result = average(10,20);
+document.getElementById("demo").innerHTML = result;
+  </script>
+</body>
+</div>
+</html>
